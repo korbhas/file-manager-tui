@@ -1,4 +1,4 @@
-# first-TUI
+
 
 A fuzzy-finder file manager for the terminal, built with React + Ink. Type to search, navigate with your keyboard, and preview files without leaving the terminal.
 
