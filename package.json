@@ -1,0 +1,33 @@
+{
+  "name": "first-tui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsx src/index.tsx",
+    "build": "tsup src/index.tsx --format cjs --out-dir dist",
+    "test": "tsx --test src/tests/index.test.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "fs-extra": "^11.3.4",
+    "fuzzysort": "^3.1.0",
+    "ink": "^7.0.1",
+    "ink-select-input": "^6.2.0",
+    "ink-text-input": "^6.0.0",
+    "jimp": "^1.6.1",
+    "open": "^11.0.0",
+    "react": "^19.2.5"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "@types/node": "^25.6.0",
+    "@types/react": "^19.2.14",
+    "tsup": "^8.5.1",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.3"
+  }
+}
